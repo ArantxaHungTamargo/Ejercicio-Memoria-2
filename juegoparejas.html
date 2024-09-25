@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Parejas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Juego de Parejas - 2 Jugadores</h1>
+
+    <div class="main-container">
+        <div id="player1-info" class="player-info">
+            <p id="player1-name">Jugador 1: <span id="score1">0</span></p>
+            <div id="player1-match" class="player-match"></div>
+        </div>
+
+        <div class="game-board-container">
+            <p id="current-turn"></p>
+            <div class="game-board">
+            </div>
+            <p id="game-over"></p>
+            <button id="restart-btn">Nueva Partida</button>
+        </div>
+
+        <div id="player2-info" class="player-info">
+            <p id="player2-name">Jugador 2: <span id="score2">0</span></p>
+            <div id="player2-match" class="player-match"></div>
+        </div>
+    </div>
+
+    <script src="parejas.js"></script>
+</body>
+</html>
